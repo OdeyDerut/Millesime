@@ -36,6 +36,7 @@
   <subsystems>Subsystem.Миллезимы</subsystems>
   <subsystems>Subsystem.Вина</subsystems>
   <subsystems>Subsystem.Погребок</subsystems>
+  <commonForms>CommonForm.Стартовая</commonForms>
   <catalogs>Catalog.Регионы</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <catalogs>Catalog.СортаВинограда</catalogs>
@@ -52,6 +53,8 @@
   <enums>Enum.СодержаниеСахара</enums>
   <enums>Enum.ТипВина</enums>
   <dataProcessors>DataProcessor.ПоискМеллизимов</dataProcessors>
+  <dataProcessors>DataProcessor.Покупка</dataProcessors>
+  <dataProcessors>DataProcessor.Дегустация</dataProcessors>
   <informationRegisters>InformationRegister.Миллезимы</informationRegisters>
   <informationRegisters>InformationRegister.РейтингиВин</informationRegisters>
   <accumulationRegisters>AccumulationRegister.СостояниеПогреба</accumulationRegisters>

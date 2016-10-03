@@ -46,6 +46,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
       <clearButton>true</clearButton>
+      <quickChoice>true</quickChoice>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
@@ -389,7 +390,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ТЗСтрокаПоиска</source>
+      <source>ТЗ</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -428,7 +429,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ТЗСостояниеПросмотра</source>
+      <source>ТЗ</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <horizontalLocation>Left</horizontalLocation>
@@ -468,7 +469,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ТЗУправлениеПоиском</source>
+      <source>ТЗ</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

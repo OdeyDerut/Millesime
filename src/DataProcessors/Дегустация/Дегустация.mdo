@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e3aff4d-b9f1-43cc-98f7-6c17a3351417">
+  <producedTypes>
+    <objectType typeId="01507f2f-7f85-4bba-8d16-cd62d2a6b792" valueTypeId="bb5b7086-96f5-4afe-a557-6746a3bd36a6">
+    </objectType>
+    <managerType typeId="a3fd598d-8c4b-414e-808c-c3fdebb7f52e" valueTypeId="5129d274-7a47-4804-bdac-236b897cf347">
+    </managerType>
+  </producedTypes>
+  <name>Дегустация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дегустация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Дегустация.Form.Form</defaultForm>
+  <forms uuid="005e3371-4d0b-4ad2-8057-cebd6fe6c2c5">
+    <name>Form</name>
+    <synonym>
+      <key>ru</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
