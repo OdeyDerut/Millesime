@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7324fddf-909c-4df9-ae50-eadd47fa8791">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7324fddf-909c-4df9-ae50-eadd47fa8791">
   <producedTypes>
     <objectType typeId="113c6098-eb97-4e27-907a-b71a226344b1" valueTypeId="08838a90-18f7-40d7-b8ed-10705a91bcce">
     </objectType>
@@ -55,6 +55,51 @@
     <type>
       <types>CatalogRef.Регионы</types>
     </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fb43360d-88a6-4d12-a957-47bf1f096b33">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЦветВина</types>
+    </type>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ЦветВина.EnumValue.Красное</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d50567f6-c254-43d3-b320-d9909f61e474">
+    <name>СодержаниеСахара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание сахара</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СодержаниеСахара</types>
+    </type>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СодержаниеСахара.EnumValue.Сухое</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ef763d2a-7c48-433b-954d-5136e195df37">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипВина</types>
+    </type>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипВина.EnumValue.Тихое</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
 </mdclass:Catalog>
