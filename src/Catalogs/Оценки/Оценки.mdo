@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bbd76a3-6d9b-4fb2-b458-556123c3eab8">
+  <producedTypes>
+    <objectType typeId="7d6a307e-7805-4057-b6ac-d31e6e260f8e" valueTypeId="539b57a4-b4fa-46ff-9a90-4cd686d96e84">
+    </objectType>
+    <refType typeId="ded0e158-50fe-4cd0-8bff-fc160cf880cb" valueTypeId="095ed137-b162-4e3d-935c-aee5d9edea06">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="f26fa439-094e-444e-91ea-4f2a49764b6f" valueTypeId="1dd685c5-bbd4-412b-a7e1-575d996ff815">
+    </selectionType>
+    <listType typeId="539633a9-3a6b-4199-8cbb-dea577d31197" valueTypeId="5476222e-020e-4d14-96ca-573130616cd5">
+    </listType>
+    <managerType typeId="390c9c5f-7880-44ed-8598-adb18dce64fd" valueTypeId="2a1b5bb9-8cf1-40b9-b4c8-d77056126828">
+    </managerType>
+  </producedTypes>
+  <name>Оценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Оценки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Оценки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Критики</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d5987801-95ce-4b46-af92-f602c1510dad">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

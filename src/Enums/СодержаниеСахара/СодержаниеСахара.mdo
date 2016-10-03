@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aef0fad5-afa2-4e7f-8269-33fc8dfa6821">
+  <producedTypes>
+    <refType typeId="d19ba3e9-a3e4-4f0d-8acf-62810fc766d8" valueTypeId="53bc6a0a-62cb-4d2e-b9ce-5af8fd39133d">
+      <emptyRef/>
+    </refType>
+    <listType typeId="fecf6c18-2135-40b8-aeb9-df5cd3497d79" valueTypeId="14eb1151-5006-406f-9e69-ea1b54a5f283">
+    </listType>
+    <managerType typeId="a8041516-f0be-4b1a-a36b-6c01ca78d670" valueTypeId="8c6ea30b-efa5-4c93-bf37-379b52951132">
+    </managerType>
+  </producedTypes>
+  <name>СодержаниеСахара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Содержание сахара</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="87473b8b-2efc-4856-8e0a-d2e968a17459">
+    <name>Сухое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сухое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="765bb091-780a-4153-b0bf-a993157f89c3">
+    <name>Полусухое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полусухое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ba528a2-9415-4a63-b65f-14b40c4bb520">
+    <name>Полусладкое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полусладкое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="debc6a2a-b64b-4a36-9298-88614a483af1">
+    <name>Сладкое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сладкое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

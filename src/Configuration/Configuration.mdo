@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30c7ab8f-e0d2-4f59-894f-1843b09f3b24">
+  <name>Конфигурация</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="17013e1a-052a-4fbf-a8f0-b15911ccedd1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="73a156a5-ad9e-4c7c-b4f5-a2e056ff9b30"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="df229f2d-0745-4474-a64f-0e3f746bd361"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="27ff0131-a592-43dc-96e6-75c0d62df00c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1df12670-5a2d-465e-a4b4-9ba9e1dc873a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3dfa4e8b-1108-4dd3-bae4-c1eff7680bf5"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.9</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.9</compatibilityMode>
+  <languages uuid="f020a4a2-cd53-4895-857f-21007dacac1e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Регионы</catalogs>
+  <catalogs>Catalog.Страны</catalogs>
+  <catalogs>Catalog.СортаВинограда</catalogs>
+  <catalogs>Catalog.Года</catalogs>
+  <catalogs>Catalog.Критики</catalogs>
+  <catalogs>Catalog.Оценки</catalogs>
+  <catalogs>Catalog.Вина</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
+  <catalogs>Catalog.Бренды</catalogs>
+  <enums>Enum.ЦветВина</enums>
+  <enums>Enum.СодержаниеСахара</enums>
+  <dataProcessors>DataProcessor.ПоискМеллизимов</dataProcessors>
+  <informationRegisters>InformationRegister.Миллезимы</informationRegisters>
+  <informationRegisters>InformationRegister.РейтингиВин</informationRegisters>
+</mdclass:Configuration>

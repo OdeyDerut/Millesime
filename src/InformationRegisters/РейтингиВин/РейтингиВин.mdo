@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c140dce-67dd-4d89-8316-9dec84216ebe">
+  <producedTypes>
+    <selectionType typeId="5d3f7398-3083-499d-ac3f-9a0c2d57abcc" valueTypeId="8479e45a-71b2-486c-82a5-5b538a6a88fe">
+    </selectionType>
+    <listType typeId="440e3124-d667-40ac-bbe1-dbb259d489c7" valueTypeId="c1360c2f-6969-426b-9c1c-e1f0f9f86bf7">
+    </listType>
+    <managerType typeId="fbd8b0e2-79b5-4fdb-b908-2c8ec746299f" valueTypeId="791ba223-6bf6-407f-b95c-cc17c0a8ff2a">
+    </managerType>
+    <recordSetType typeId="f50ed6ab-5487-48ec-b24a-30c28c6b72a5" valueTypeId="8c32e496-f168-4db3-b75b-2ec844d6aabc">
+    </recordSetType>
+    <recordKeyType typeId="e168fafc-eb7f-45b7-ab1b-4e9b00368608" valueTypeId="aba40e86-91bd-48f1-a34a-a3272038036f">
+    </recordKeyType>
+    <recordType typeId="1a23c23e-cb89-4794-8369-53256c7e4857" valueTypeId="0d3f7460-4035-403c-95cb-b415e01c73f1">
+    </recordType>
+    <recordManagerType typeId="3c4459e3-a1a0-433f-a13d-b52295121c17" valueTypeId="5280865a-99f0-442f-923b-a4fbacee7977">
+    </recordManagerType>
+  </producedTypes>
+  <name>РейтингиВин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейтинги вин</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="10ffd325-2e2b-4d9a-af74-7a0101083b62">
+    <name>Оценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оценки</types>
+    </type>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.РейтингиВин.Dimension.Критик</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="fd9a9d6b-7045-4965-90a6-29b1decee92a">
+    <name>Вино</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вино</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вина</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fa3a49e0-2f68-4c91-b3a9-541acfa69ec7">
+    <name>Критик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Критики</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

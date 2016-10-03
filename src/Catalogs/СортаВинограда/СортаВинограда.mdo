@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b66c38c3-74ee-4df0-a2b3-b1d7725a6695">
+  <producedTypes>
+    <objectType typeId="661f6767-5962-4cf4-9a06-412489c4ad6f" valueTypeId="3810cf1d-d7ae-40d5-b1ca-c31dcf603003"/>
+    <refType typeId="c82fe327-65b6-40fa-a911-8dde50ad8fc9" valueTypeId="ded1fefe-0217-4827-ac28-45966ed9c29e"/>
+    <selectionType typeId="b1ef3a8c-e81e-46e6-9580-a262bcf05066" valueTypeId="773b96b7-a845-460c-8800-1b78d6f898af"/>
+    <listType typeId="2822b6f7-59ef-4732-82b4-38b748ab6d43" valueTypeId="96ab79f0-2623-4777-b830-624781f33162"/>
+    <managerType typeId="7a10aa59-a399-4896-8abc-d15bddb30ae6" valueTypeId="82b9f863-9f7d-4006-a5ca-b6b6dcd71989"/>
+  </producedTypes>
+  <name>СортаВинограда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сорта винограда</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СортаВинограда.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СортаВинограда.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

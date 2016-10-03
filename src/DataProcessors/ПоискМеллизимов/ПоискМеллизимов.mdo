@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0db78957-fb22-4bae-a7d5-c3f8feec637f">
+  <producedTypes>
+    <objectType typeId="fd582a66-74b6-4d62-b970-aa7d54e6be18" valueTypeId="4baf8a2d-4823-4654-a075-4c1927335e0d"/>
+    <managerType typeId="0d6ef3f2-1c09-4575-940e-c5c2a487332c" valueTypeId="d167cd6a-c778-493f-a972-bddb395541cc"/>
+  </producedTypes>
+  <name>ПоискМеллизимов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск меллизимов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоискМеллизимов.Form.Форма</defaultForm>
+  <forms uuid="5a29d731-4a60-4c17-86eb-cb934f21b21f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="622d12c4-f623-4f03-90d4-9ca49ffc756e">
+  <producedTypes>
+    <selectionType typeId="b4738144-6235-4648-9a84-068b07da99e9" valueTypeId="3c85aa8a-159d-472f-ba08-283664852b17"/>
+    <listType typeId="75326a1b-3dc5-43f1-8e5c-3a2f5faf7f31" valueTypeId="027fb251-b2de-4b24-b319-5a66219e8d56"/>
+    <managerType typeId="d813fc8e-1e77-4c71-a6ea-dde80f7224f3" valueTypeId="a8309428-8d27-417a-bfe8-00d454da389a"/>
+    <recordSetType typeId="c3471beb-d3e9-4383-9a35-cb7f7653367f" valueTypeId="76407b1b-9093-4d79-b91c-c521aba538e6"/>
+    <recordKeyType typeId="c03415f6-c9e6-4dd0-9f2b-ecda4b4d322c" valueTypeId="d4711878-11a2-4d43-bd2e-446f4db9e5d2"/>
+    <recordType typeId="0506fb93-3319-4543-b453-6f44b72fd4ad" valueTypeId="77be782e-8524-42f3-919a-9220467cb4f6"/>
+    <recordManagerType typeId="c7ce2d32-d87f-4ae0-8603-f328e4f565c4" valueTypeId="3bd86dca-3e2b-4944-92bf-7748966c7a45"/>
+  </producedTypes>
+  <name>Миллезимы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миллезимы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4ffcf7f4-338e-40b6-b691-222700aba598">
+    <name>Оценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Оценки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.Миллезимы.Dimension.Критик</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="3cf0abf0-7c16-416e-8a8b-fa093fdc10e2">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Регионы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="08f3362e-51f9-4437-86d4-1e4153c6cb44">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Года</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7327ce01-d88e-451a-b88c-3b440546ceb5">
+    <name>Критик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критик</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Критики</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

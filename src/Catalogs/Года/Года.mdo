@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2186fd1e-5fc0-4c62-b48b-9568e1a5980e">
+  <producedTypes>
+    <objectType typeId="3cd12289-5808-4322-b807-4b6017af687b" valueTypeId="dec1bcd3-021f-4c67-b77a-482a9ac4f2d5"/>
+    <refType typeId="eed750e2-928d-4467-9684-2f443a8b8440" valueTypeId="2a938372-9181-46a8-a470-f4645c688948"/>
+    <selectionType typeId="ad7917d7-5231-47aa-b605-88f3b22bd58c" valueTypeId="a830bc53-1d07-4688-b552-02cb85585265"/>
+    <listType typeId="e15fdd62-9d11-41f4-849d-6d43ba2005c3" valueTypeId="f59c66eb-46e4-4752-925d-081f4f15da70"/>
+    <managerType typeId="d569c841-17b1-404d-a92c-fc0b6eb09bf3" valueTypeId="d4b170df-c34e-4bdb-ab7d-1a13d0d4766f"/>
+  </producedTypes>
+  <name>Года</name>
+  <synonym>
+    <key>ru</key>
+    <value>Года</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Года.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Года.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

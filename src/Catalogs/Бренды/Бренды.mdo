@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7324fddf-909c-4df9-ae50-eadd47fa8791">
+  <producedTypes>
+    <objectType typeId="113c6098-eb97-4e27-907a-b71a226344b1" valueTypeId="08838a90-18f7-40d7-b8ed-10705a91bcce">
+    </objectType>
+    <refType typeId="1daf38dd-95a3-4bfa-83f3-c3fb60a14034" valueTypeId="49e4b826-2a92-4fc4-9820-0f9dba23f191">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="14f154cd-f796-4948-a703-64df3d35aab2" valueTypeId="658af4da-fdb4-4d83-b25f-c3d01b4a180b">
+    </selectionType>
+    <listType typeId="01fe56e4-d349-4291-97ea-691e691cddfb" valueTypeId="51b17725-a8d3-46ba-8e6a-8a1cb49952be">
+    </listType>
+    <managerType typeId="81ec2f6a-ef69-4c83-b3ff-ba391a67bb74" valueTypeId="3dda3928-f14f-4bb8-a380-4b04487cfcd4">
+    </managerType>
+  </producedTypes>
+  <name>Бренды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бренды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Бренды.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Бренды.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9d959d56-f9ed-42d7-ac82-7605d5045f82">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Производители</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d3c08514-c85c-4c72-aba8-5e45d640f99b">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Регионы</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b15d5b52-e914-49e6-9c39-45e39c2184f7">
+  <producedTypes>
+    <objectType typeId="5b3a6688-8500-4fba-8017-42401cbfc7e7" valueTypeId="d3651228-b3be-43af-afb8-b626115cd65a">
+    </objectType>
+    <refType typeId="47575871-dd36-4934-9b01-1abb3f2a37ce" valueTypeId="1a374fd0-6f65-4849-9247-3303de5ab3a5">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="c6277858-497f-414f-917e-c7c9f78f327b" valueTypeId="68cf7c66-668a-421b-bc5a-f5326ea273d1">
+    </selectionType>
+    <listType typeId="12340629-e3df-48b5-a1e0-d4aedb917843" valueTypeId="ef9d4671-8e71-42ac-89a3-ebd802917494">
+    </listType>
+    <managerType typeId="46369b10-90f7-453e-95db-42ae1d36f5b8" valueTypeId="7c4b44c5-af94-4730-93f3-7b44939b75c0">
+    </managerType>
+  </producedTypes>
+  <name>Вина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вина</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Вина.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Вина.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ab515546-ed6a-4025-b1c9-176006c55e49">
+    <name>Бренд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бренд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Бренды</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9b360b73-2e95-4781-9b13-d9a016b0bd10">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Года</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

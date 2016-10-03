@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="374deb15-1ea2-47c5-9f3c-42eb299209e9">
+  <producedTypes>
+    <objectType typeId="a84c5bf8-5407-483c-acc5-9c7c2b454de1" valueTypeId="5c8ab7c6-8f89-4e89-b670-07917acec859">
+    </objectType>
+    <refType typeId="f9f06d5b-ab2e-4cb3-b5e5-450f3f86e1e6" valueTypeId="f1344aad-c82f-4ef2-bc17-3ef74d9a90bd">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="33d8a593-9b7b-4fea-92dd-dd47167c4856" valueTypeId="276ded6f-548b-4b89-86e9-b41514844495">
+    </selectionType>
+    <listType typeId="82f21413-a350-484b-a2be-dcb3be682cdf" valueTypeId="daf34e30-1757-493f-b1d0-ff1418ad8059">
+    </listType>
+    <managerType typeId="07fd5daa-ecd4-4648-9fe2-61be66d69584" valueTypeId="572f243a-23b8-4e9e-a36a-860f26d9887a">
+    </managerType>
+  </producedTypes>
+  <name>Регионы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регионы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Регионы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Регионы.Attribute.НаименованиеР</inputByString>
+  <inputByString>Catalog.Регионы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="54aea524-24ce-4311-9516-f40ef4166817">
+    <name>НаименованиеР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование Р</value>
+    </synonym>
+    <comment>Русское наименование региона</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="34b7f58c-7c2a-49b3-ace2-84f98f3a9397">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a3781d11-d371-4372-a9e8-9744ff2c13f7">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Страны</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

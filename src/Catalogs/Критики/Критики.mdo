@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="905ea8e3-46ea-4d51-b94a-b66e192b3119">
+  <producedTypes>
+    <objectType typeId="cd830366-b15c-4461-b4dd-109317ae8050" valueTypeId="5566a7ae-c33d-4c7a-9dc6-e6b35846c476"/>
+    <refType typeId="f1880820-47e8-4740-bb07-f59a173697fa" valueTypeId="2d4c0679-1787-4089-b055-055914333950"/>
+    <selectionType typeId="7fac9edd-e817-42b0-9096-352822353c0a" valueTypeId="bd53b829-fbf4-459e-ac68-1555d12c132d"/>
+    <listType typeId="674bdce9-d659-4df9-8488-3709069369f4" valueTypeId="c5462880-b28a-455e-9a09-9b5e43be1919"/>
+    <managerType typeId="9e27de14-4a50-4176-8833-aa752e8338af" valueTypeId="73b67546-681c-49b8-b885-bb4fff3ad92b"/>
+  </producedTypes>
+  <name>Критики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Критики</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Критики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Критики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

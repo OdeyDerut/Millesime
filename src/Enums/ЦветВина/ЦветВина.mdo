@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="123349f9-66f8-4a51-b45b-805dcc848d15">
+  <producedTypes>
+    <refType typeId="c84370ac-cf0e-4422-b92e-82587294e737" valueTypeId="995e4815-fbec-4ce7-993d-936c460490f7">
+      <emptyRef/>
+    </refType>
+    <listType typeId="45a57d94-251a-4d21-af78-452f563dacf2" valueTypeId="86b20e8d-4519-4861-a611-507f8940d4b2">
+    </listType>
+    <managerType typeId="5715f9ce-f8b2-4a94-927c-c28f810221a4" valueTypeId="ca03a602-5f4e-4b89-a3d9-e570b94341fe">
+    </managerType>
+  </producedTypes>
+  <name>ЦветВина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет вина</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="49e85cc4-2530-4194-b813-97302d670365">
+    <name>Красное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Красное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="557d3bed-4581-4646-a206-a187b8de315e">
+    <name>Белое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Белое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a899994-abbe-4413-a782-1a31f32d2c43">
+    <name>Розовое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розовое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
