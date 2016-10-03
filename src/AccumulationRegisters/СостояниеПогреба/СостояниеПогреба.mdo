@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83de7170-4fa6-4369-8eef-53c720887ef3">
+  <producedTypes>
+    <selectionType typeId="084decb6-a410-4092-8931-6e6090c870f1" valueTypeId="0d714989-83dc-4a27-92e7-b61c0f66882d">
+    </selectionType>
+    <listType typeId="680704de-4129-4cf7-acf9-0256757c4255" valueTypeId="c3aba2a6-60c4-4c2c-be71-214b9c85a36c">
+    </listType>
+    <managerType typeId="b633faba-f4d5-4302-a001-d9140b9cee5e" valueTypeId="5dc03513-45f6-4969-9ecb-179c5c1178ca">
+    </managerType>
+    <recordSetType typeId="5128d4e8-2d94-44c0-8ac9-092a2a179e83" valueTypeId="790734aa-7720-42d0-9cb8-1253f458d030">
+    </recordSetType>
+    <recordKeyType typeId="8702f325-64da-4c57-a911-44158c5b44f8" valueTypeId="a46737eb-15c5-46e1-90df-77fb7135af31">
+    </recordKeyType>
+    <recordType typeId="15aff312-55a5-4cb0-8021-737d8e067f11" valueTypeId="96226c00-05b8-4c18-bf70-5d4b37fe1122">
+    </recordType>
+  </producedTypes>
+  <name>СостояниеПогреба</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние погреба</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="18f5ed17-ecaf-48ae-9c45-e48cc84bf118">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="311e4de4-e4a4-461a-b8c4-e255aa73358a">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="810f44ed-7c1f-4c17-bbaa-02bef3302ff9">
+    <name>Погреб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погреб</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Погреба</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="7172300a-41e9-4657-9997-2bff2a7fa3fb">
+    <name>Вино</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вино</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вина</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

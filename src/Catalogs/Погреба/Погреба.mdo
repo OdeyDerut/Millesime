@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2690b2d5-c609-441b-83da-fb6764054cb5">
+  <producedTypes>
+    <objectType typeId="9f36d8f1-932e-45f6-aa46-ef1db8a4e576" valueTypeId="8ef7ec6a-3318-43e4-9db4-e6ef9a60bef1">
+    </objectType>
+    <refType typeId="1f019648-6a2a-4df2-9a30-1f311fdfbff2" valueTypeId="d6343f11-62bc-4b8c-af35-469530b63730">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="c6898a78-fb72-496e-9836-031f7931cbb8" valueTypeId="eb8f8773-b685-4a0a-9813-3ae75be48ab5">
+    </selectionType>
+    <listType typeId="afa104b0-8e41-4f1c-a7ba-e44b01960862" valueTypeId="9f6d0832-ee43-42b3-8614-3812b0ad3bb7">
+    </listType>
+    <managerType typeId="33b75b94-faca-41c6-8c61-9032b07fd2c9" valueTypeId="5746535d-a19b-464d-9e13-9dc55e0c3542">
+    </managerType>
+  </producedTypes>
+  <name>Погреба</name>
+  <synonym>
+    <key>ru</key>
+    <value>Погреба</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Погреба.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Погреба.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

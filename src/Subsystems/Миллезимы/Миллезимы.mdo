@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50860009-fddf-4c63-8a0e-9d4b8e5957eb">
+  <name>Миллезимы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миллезимы</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Регионы</content>
+  <content>Catalog.Страны</content>
+  <content>Catalog.Года</content>
+  <content>Catalog.Критики</content>
+  <content>InformationRegister.Миллезимы</content>
+  <content>DataProcessor.ПоискМеллизимов</content>
+</mdclass:Subsystem>

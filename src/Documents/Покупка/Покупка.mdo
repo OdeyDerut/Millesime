@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a5ad021-c7f8-4e7f-98a2-3caceb9fc8ad">
+  <producedTypes>
+    <objectType typeId="ed71b4c7-17f0-4800-aba0-08a502c97099" valueTypeId="d3ac93ea-ddcc-417c-bbde-d1b8e83c2f88">
+    </objectType>
+    <refType typeId="1ddf80be-5af8-400a-835b-b8ef895cff16" valueTypeId="9146f549-faf5-4e0a-9c8b-1b900c6b24a4">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="73a030ea-e496-4a6c-8a06-70b3d160b386" valueTypeId="d6f08ddc-61e6-4241-848a-71d61aafc55b">
+    </selectionType>
+    <listType typeId="9c02cae7-5262-4cb0-a34e-73548ab63541" valueTypeId="7f3b6f00-9f00-4d0f-8e06-2a9392037fb6">
+    </listType>
+    <managerType typeId="65c92b1d-e69c-4504-b6a0-1a25a2e4d5a8" valueTypeId="2c013ce2-4ad5-49f6-bb18-b12f6aea82c6">
+    </managerType>
+  </producedTypes>
+  <name>Покупка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Покупка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Покупка.Form.DocumentForm</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.СостояниеПогреба</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f766f215-4db4-4b50-a427-673b20f6453a">
+    <name>Погреб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погреб</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Погреба</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="582416bb-7652-4eb9-b544-bccf624246ef">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="90f87016-8a5e-42a1-b4e3-913fca7c838f">
+    <producedTypes>
+      <objectType typeId="0d4b5301-fb38-45a3-9bf0-b8b7286f1dc0" valueTypeId="65a8fc70-7b5b-46db-b9d3-6d0861baaeb5">
+      </objectType>
+      <rowType typeId="2435394b-5e50-4187-8b6b-2b88de9f305f" valueTypeId="59e71351-87fa-4d01-b9ff-a84947a26f90">
+      </rowType>
+    </producedTypes>
+    <name>Вина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вина</value>
+    </synonym>
+    <attributes uuid="909f227a-92e8-4dd5-b961-b680f06b26dc">
+      <name>Вино</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вино</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Вина</types>
+      </type>
+    </attributes>
+    <attributes uuid="323e172b-08c0-4688-a853-ca7551542497">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="a1722e5d-7392-4f04-a61c-a2203d2ce18e">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

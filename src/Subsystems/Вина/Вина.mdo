@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09aa1eca-8ab0-43b2-a2b4-4828e2db060a">
+  <name>Вина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вина</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Регионы</content>
+  <content>Catalog.Страны</content>
+  <content>Catalog.Года</content>
+  <content>Catalog.Критики</content>
+  <content>Catalog.Оценки</content>
+  <content>Catalog.Вина</content>
+  <content>Catalog.Бренды</content>
+  <content>Catalog.Производители</content>
+  <content>Catalog.СортаВинограда</content>
+  <content>Enum.ЦветВина</content>
+  <content>Enum.СодержаниеСахара</content>
+  <content>Enum.ТипВина</content>
+  <content>InformationRegister.РейтингиВин</content>
+</mdclass:Subsystem>

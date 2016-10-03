@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a9b6dbd-c1ca-4662-8a1b-a5396355eb6e">
+  <producedTypes>
+    <refType typeId="192e2794-0f55-44f1-a4b0-5386f712fcf2" valueTypeId="e03b1cff-11a6-45d8-8245-cd32ac7134bd">
+      <emptyRef/>
+    </refType>
+    <listType typeId="82e7f11e-b45c-4a38-bfea-ef4a95ceb7e9" valueTypeId="9b1a884a-af1a-497c-9788-d7379ce13012">
+    </listType>
+    <managerType typeId="f07e11d3-c8d0-486e-a289-c0079e5c0ecf" valueTypeId="c7ce14cd-198e-451e-9c27-77a28548dea5">
+    </managerType>
+  </producedTypes>
+  <name>ТипВина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип вина</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a37f7cee-59b0-4f83-ad85-7a4c95cf63ca">
+    <name>Тихое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тихое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d05c803-8c7b-423b-83cd-f8dc9a4227be">
+    <name>Игристое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игристое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63e82fc5-0400-437b-8b65-7266f1e4873e">
+    <name>Крепленое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крепленое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c82fa59a-6ad7-488a-98c0-268d01871703">
+  <name>Погребок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Погребок</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.СостояниеПогреба</content>
+  <content>Catalog.Погреба</content>
+  <content>Document.Покупка</content>
+</mdclass:Subsystem>

@@ -33,6 +33,9 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Миллезимы</subsystems>
+  <subsystems>Subsystem.Вина</subsystems>
+  <subsystems>Subsystem.Погребок</subsystems>
   <catalogs>Catalog.Регионы</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <catalogs>Catalog.СортаВинограда</catalogs>
@@ -42,9 +45,14 @@
   <catalogs>Catalog.Вина</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Бренды</catalogs>
+  <catalogs>Catalog.Погреба</catalogs>
+  <documents>Document.Покупка</documents>
+  <documents>Document.Дегустация</documents>
   <enums>Enum.ЦветВина</enums>
   <enums>Enum.СодержаниеСахара</enums>
+  <enums>Enum.ТипВина</enums>
   <dataProcessors>DataProcessor.ПоискМеллизимов</dataProcessors>
   <informationRegisters>InformationRegister.Миллезимы</informationRegisters>
   <informationRegisters>InformationRegister.РейтингиВин</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.СостояниеПогреба</accumulationRegisters>
 </mdclass:Configuration>
